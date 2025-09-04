@@ -1,0 +1,2 @@
+# fallback
+Fallback for photobooth
