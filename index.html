@@ -30,26 +30,75 @@
   }
 
 .headline {
-  font-size: 6vw; /* was 3vw */
+
+  font-size: 6vw;
+
   font-weight: bold;
-  text-shadow: 0 4px 14px rgba(0,0,0,0.8);
+
+  text-shadow:
+
+    0 4px 14px rgba(0,0,0,0.8),
+
+    0 0 25px rgba(255,255,255,0.35);
+
+    
+
+  margin-bottom: 1.5rem;
+
+  padding: 0 5vw;
+
+  line-height: 1.1;
+
 }
 
 .countdown {
-  font-size: 8vw; /* was 4vw */
+
+  font-size: 8vw;
+
   font-weight: bold;
-  letter-spacing: 0.05em;
-  text-shadow: 0 4px 16px rgba(0,0,0,0.8);
+
+  letter-spacing: 0.08em;
+
+  text-shadow:
+
+    0 4px 16px rgba(0,0,0,0.9),
+
+    0 0 30px rgba(255,255,255,0.4);
+
+  padding: 0.4em 0.8em;
+
+  border-radius: 20px;
+
+  background: rgba(0,0,0,0.25);
+
+  backdrop-filter: blur(4px);
+
+  box-shadow:
+
+    0 8px 30px rgba(0,0,0,0.45),
+
+    0 0 40px rgba(255,255,255,0.12);
+
 }
 
-/* For mobile */
+/* Mobile */
+
 @media (max-width: 768px) {
+
   .headline {
-    font-size: 10vw; /* was 6vw */
+
+    font-size: 10vw;
+
+    padding: 0 8vw;
+
   }
+
   .countdown {
-    font-size: 12vw; /* was 8vw */
+
+    font-size: 12vw;
+
   }
+
 }
 </style>
 </head>
